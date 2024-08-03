@@ -1,0 +1,89 @@
+/* 
+XL Device :1200px
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+LG Device :992px
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+MD Device :768px
+@media (min-width: 768px) and (max-width: 991px) {}
+
+Extra small device
+@media (max-width: 767px) {}
+
+SM small Device :550px
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+ */
+
+
+/* XL Device :1200px */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .container {
+        max-width: 1250px;
+    }
+}
+
+/* LG Device :992px */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .header-right ul li {
+        margin-left: 15px;
+    }
+
+    .main-menu ul li {
+        margin-right: 24px;
+    }
+}
+
+/* MD Device :768px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-slider {
+        height: 430px;
+    }
+
+    .footer-menu {
+        text-align: center;
+    }
+
+    .footer-icon {
+        margin-top: 20px;
+    }
+}
+
+/* Extra small device */
+@media (max-width: 767px) {
+    .logo {
+        margin-top: 20px;
+    }
+
+    .slider-text {
+        padding-left: 30px;
+    }
+
+    .header-right ul li:first-child {
+        margin-left: 0;
+    }
+
+    .single-slider {
+        height: 430px;
+    }
+
+    .product-tab ul li {
+        margin-right: 35px;
+    }
+
+    .subscribe-wrapper {
+        padding: 0 15px;
+    }
+
+    .subscribe-wrapper input {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .footer-icon {
+        margin-top: 20px;
+    }
+}
+
+/* SM small Device :550px */
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
